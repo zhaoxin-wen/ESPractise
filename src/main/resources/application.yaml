@@ -1,0 +1,12 @@
+# 应用服务 WEB 访问端口
+server:
+  port=8080
+spring:
+  application:
+    name: search-service
+heima:
+  elasticsearch:
+    hostlist: 127.0.0.1:9200 #多个节点用逗号分隔
+#spring.application.name=search-service
+#
+#heima.elasticsearch.hostlist= 127.0.0.1:9200
